@@ -1,9 +1,3 @@
-// function myFunction(){
-//     var a = prompt("Enter first side");
-//     var b = prompt("Enter 2nd side");
-//     var c = Math.sqrt(a**2+b**2)
-//     document.write(c)
-// }
 function fAddition(){
     var x = 
     +document.getElementById("myNumber1").value;
