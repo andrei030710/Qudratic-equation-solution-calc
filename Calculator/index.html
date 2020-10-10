@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+    <title>My website</title>
+    <script src="test.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body onload="run">
+    <div class="titles">
+    <div><h1 style="background-color: tomato">Calculate ur stuff here</h1></div>
+    </div>
+
+    <div class="flex-container123">
+       <div><input type = "number" id = "myNumber1" value = "0"></div>
+       <div><input type = "number" id = "myNumber2" value = "0"></div>
+       <div><input type = "number" id = "myNumber3" value = "0"></div>
+    </div>
+
+    <div class="operations_buttons">
+      <div><button onclick="fAddition()">Addition</button></div>
+      <div><button onclick="fMultiplication()">Multiplication</button></div>
+      <div><button onclick="fDivision()">Division</button></div>
+      <div><button onclick="fSubtraction()">Subtraction</button></div>
+    </div>
+
+    <div class="results_operations">
+        <p>Result:</p>
+         <p id = "result1"></p>
+    </div>
+    
+    <div class="quadratics_buttons"> 
+        <div><button onclick="fQuadratic()">Quadratic Solutions</button></div>
+        <div><button onclick="fVertex()">Vertex</button></div>
+    </div>
+
+    <div class="results_quadratics">
+     <p>Solution #1:</p>
+      <p id = "sol1"></p>
+     <p>Solution #2:</p>
+      <p id = "sol2"></p>
+     <p>Vertex x-coordinate:</p>
+      <p id = "ver"></p>
+    </div>
+</body>

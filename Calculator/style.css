@@ -1,0 +1,43 @@
+.flex-container123 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+.operations_buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.results_quadratics {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.results_operations {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.titles {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.quadratics_buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
